@@ -1,0 +1,93 @@
+body {
+    background-image:url("tlo.jpg");
+}
+
+#header {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 40%;
+    height: 75;
+    border: solid black;
+    background-color: red;
+    font-family: 'Metal Mania', cursive;
+    text-align:center;
+    color:black;
+   }
+   
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: red;
+    overflow-x: hidden;
+    padding-top: 16px;
+    border: solid black;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Metal Mania', cursive;
+  color: black;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+hr{
+    width:475px;
+    border-color:red;
+    border-width:3px;
+}
+
+
+
+/*Pierwsza strona*/
+#glowna{
+    text-align:center;
+    color:white;
+}
+
+/*Druga strona*/
+#plan{
+    border:solid;
+    border-color:red;
+    background-color:black;
+    max-width:50%;
+    margin:auto;
+    float:top;
+    text-align:center;
+    color:white;
+}
+
+#ramka{
+    border:solid;
+    border-color:red;
+    background-color:black;
+    max-width:50%;
+    margin:auto;
+    margin-top:30px
+}
+
+.tabelki{
+    justify-items: center;
+}
+
+table, th, td{
+    border: solid white 1px;
+    text-align: center;
+    color: white;
+}
