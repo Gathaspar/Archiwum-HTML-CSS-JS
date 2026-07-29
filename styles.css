@@ -91,3 +91,7 @@ table, th, td{
     text-align: center;
     color: white;
 }
+
+img{
+    width: 200px;
+}
