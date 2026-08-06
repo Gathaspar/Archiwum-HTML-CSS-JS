@@ -90,6 +90,7 @@ table, th, td{
     border: solid white 1px;
     text-align: center;
     color: white;
+    background-color: darkslategrey;
 }
 
 img{
